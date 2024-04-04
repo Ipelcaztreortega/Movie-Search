@@ -30,12 +30,12 @@ Using React + Vite + TypeScript, I created a small frontend application that wil
     ```bash
     npm install dotenv react-router-dom --save-dev @types/node
 
-5. Second, go into your .env file and fill in the information for your api key given to you from the [OMDb API - The Open Movie Database](http://www.omdbapi.com/). You might have to sign up if you do not have one.
+5. Second, create a .env file inside the root directory (where the package.json file is ), then create a VITE_API_KEY= and fill in the information for your api key given to you from the [OMDb API - The Open Movie Database](http://www.omdbapi.com/). You might have to sign up if you do not have one.
 
 
 ## How to Run Application
 
-1. Once you followed the instructions above, go into the terminal and run these commands:
+1. Once you followed the instructions above, go into the terminal and run these commands for the vite project itself:
     ```bash
     cd MTH
     npm install
