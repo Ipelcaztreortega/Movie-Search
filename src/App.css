@@ -1,0 +1,11 @@
+.app-container {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    min-height: 100vh; /* Ensure the container covers the entire viewport height */
+    background-color: lightpink; /* Light gray background color */
+    border-radius:10px;
+
+  }
+  

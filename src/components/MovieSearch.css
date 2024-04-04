@@ -1,0 +1,90 @@
+.movie-searches {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+}
+.search-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-label {
+  margin-right: 10px;
+}
+
+.search-input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 300px;
+  height: 40px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.submit-button {
+  height: 40px;
+  padding: 0 20px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.movie-results {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 300px; /* Set the width of each movie card */
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  text-decoration: none; /* Remove the underline from links */
+  color: #333; /* Dark gray color for text */
+}
+
+.movie-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination-button {
+  padding: 10px;
+  margin: 0 5px;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
